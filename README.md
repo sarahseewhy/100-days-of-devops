@@ -1,2 +1,2 @@
 # 100-days-of-devops
-Completing an infrastructure task for 100 days (see "100 Days of Devops": https://bit.ly/30uoZzl)
+An infrastructure task every day for 100 days: https://bit.ly/30uoZzl
