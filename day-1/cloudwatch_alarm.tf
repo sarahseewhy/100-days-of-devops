@@ -1,5 +1,5 @@
-resource "aws_cloudwatch_metric_alarm" "foobar" {
-  alarm_name = "terraform-test-foobar5"
+resource "aws_cloudwatch_metric_alarm" "high_cpu_utilization" {
+  alarm_name = "high_cpu_utilization"
   comparison_operator = "GreaterThanOrEqualToThreshold"
   evaluation_periods = "2"
   metric_name = "CPUUtilization"
