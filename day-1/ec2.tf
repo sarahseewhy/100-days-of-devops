@@ -24,8 +24,8 @@ resource "aws_instance" "web" {
   instance_type = "t2.micro"
 
   tags = {
-    name    = "HelloWorld"
     env     = "spike"
     service = "100-days-devops"
+    name    = "hello-world"
   }
 }

@@ -17,5 +17,6 @@ resource "aws_cloudwatch_metric_alarm" "cpu_utilization" {
   tags = {
     env     = "spike"
     service = "100-days-devops"
+    name    = "hello-world"
   }
 }
