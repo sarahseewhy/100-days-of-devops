@@ -13,4 +13,9 @@ resource "aws_cloudwatch_metric_alarm" "cpu_utilization" {
   dimensions = {
     InstanceId = aws_instance.web.id
   }
+
+  tags = {
+    env     = "spike"
+    service = "100-days-devops"
+  }
 }
