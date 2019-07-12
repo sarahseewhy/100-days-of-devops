@@ -4,6 +4,6 @@ resource "aws_sns_topic" "hello_world_notification" {
   tags = {
     env     = "spike"
     service = "100-days-devops"
-    name    = "hello-world"
+    name    = "day-2"
   }
 }

@@ -19,13 +19,13 @@ data "aws_ami" "ubuntu" {
   owners = ["099720109477"] # Canonical
 }
 
-resource "aws_instance" "day_2" {
+resource "aws_instance" "day_1" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = "t2.micro"
 
   tags = {
     env     = "spike"
     service = "100-days-devops"
-    name    = "day-2"
+    name    = "day_1"
   }
 }
