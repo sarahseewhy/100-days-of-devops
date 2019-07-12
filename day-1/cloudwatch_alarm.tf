@@ -11,7 +11,7 @@ resource "aws_cloudwatch_metric_alarm" "cpu_utilization" {
   insufficient_data_actions = []
 
   dimensions = {
-    InstanceId = aws_instance.web.id
+    InstanceId = aws_instance.day_1.id
   }
 
   tags = {
